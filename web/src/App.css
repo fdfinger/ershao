@@ -4,15 +4,13 @@
 }
 
 .App-logo {
-  pointer-events: none;
-  width: 100vwin;
+  height: 100%;
 }
 
 .App .content {
   position: absolute;
-  top: 4vh;
-  left: 50%;
-  transform: translateX(50%);
+  top: 8vh;
+  left: 30%;
   color: #fff;
   font-size: 3em;
 }
@@ -40,9 +38,9 @@
 
 @keyframes App-logo-spin {
   from {
-    transform: rotate(0deg);
+    transform: translateX(300px);
   }
   to {
-    transform: rotate(360deg);
+    transform: translateX(-300px);
   }
 }
